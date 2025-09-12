@@ -1,6 +1,7 @@
 package _01_ArraysAndStrings;
 import java.util.*;
 public class _07_MajorityElementGeneral {
+
     //~~~~~~~~~~~~~~~~User Section~~~~~~~~~~~~~~~~~
     public static ArrayList<Integer> majorityElement(int[] arr, int k) {
         // write yout code here
