@@ -4,7 +4,6 @@ public class _01_RangeAddition {
 
 
         // ~~~~~~~~~~~~~~~~~~~~~User Section~~~~~~~~~~~~~~~~~~~~~
-
         public static int[] getModifiedArray(int length, int[][] queries) {
             // write your code here
             int[] res = new int[length];
