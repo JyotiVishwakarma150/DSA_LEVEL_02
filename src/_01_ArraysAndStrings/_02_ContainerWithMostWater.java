@@ -2,7 +2,6 @@ package _01_ArraysAndStrings;
 import java.util.*;
 public class _02_ContainerWithMostWater {
     // ~~~~~~~~~~~~~~~~~~~~~User Section~~~~~~~~~~~~~~~~~~~~~
-
     public static int mostWater(int[] heights) {
         // write your code here
         int i=0;
