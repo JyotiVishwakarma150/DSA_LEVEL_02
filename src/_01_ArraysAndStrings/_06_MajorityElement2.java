@@ -1,6 +1,7 @@
 package _01_ArraysAndStrings;
 import java.util.*;
 public class _06_MajorityElement2 {
+
     // ~~~~~~~~~~~~~~~~~~~~~User Section~~~~~~~~~~~~~~~~~~~~~
     public static boolean isGreaterThaNb3(int[] arr,int val) {
         int count = 0;
