@@ -2,7 +2,7 @@ package _01_ArraysAndStrings;
 import java.util.*;
 import java.util.Arrays;
 public class _04_SquaresOfASortedArray {
-    // ~~~~~~~~~~~~~~~~~~~~~User Section~~~~~~~~~~~~~~~~~~~~~
+    // ~~~~~~~~~~~~~~~~~~~~User Section~~~~~~~~~~~~~~~~~~~~~
 
     public static int[] sortedSquares(int[] nums) {
         //nlogn time complexity ..not a good way
