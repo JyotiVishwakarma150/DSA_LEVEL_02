@@ -1,6 +1,7 @@
 package _01_ArraysAndStrings;
 import java.util.*;
 public class _03_FaultyKeyboard {
+
     public static boolean isPossible(String name,String typed){
         if(name.length()>typed.length())  return false;
         int i=0;
