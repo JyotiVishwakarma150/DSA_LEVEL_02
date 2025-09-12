@@ -1,7 +1,7 @@
 package _01_ArraysAndStrings;
 import java.util.*;
 public class _05_MajorityElement1 {
-    // ~~~~~~~~~~~~~~~~~~~~~User Section~~~~~~~~~~~~~~~~~~~~~
+    // ~~~~~~~~~~~~~~~~~~~~~User Section~~~~~~~~~~~~~~~~~~~~
      public static int validCandidate(int[] arr){
          int val=arr[0];
          int count=1;
