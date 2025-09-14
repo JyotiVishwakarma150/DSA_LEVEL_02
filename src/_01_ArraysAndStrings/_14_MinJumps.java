@@ -1,6 +1,7 @@
 package _01_ArraysAndStrings;
 import java.util.*;
 public class _14_MinJumps {
+
     // ~~~~~~~~~~~~User Section~~~~~~~~~~~
     public static int minJumps(int x) {
         // Write your code here
