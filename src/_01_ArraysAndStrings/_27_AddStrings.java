@@ -7,6 +7,7 @@ public class _27_AddStrings {
         int carry=0;
         int i=num1.length()-1;
         int j=num2.length()-1;
+
         while(i>=0 || j>=0 || carry!=0){
             //get ival
             int ival= i>=0?num1.charAt(i)-'0':0;
