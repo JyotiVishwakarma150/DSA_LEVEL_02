@@ -15,6 +15,7 @@ public class _33_NumSubarrayBoundedMax {
                ans+=prevc;
            }else if(arr[ei]<left){
                ans+=prevc;
+
            }else{
                si=ei+1;
            }
