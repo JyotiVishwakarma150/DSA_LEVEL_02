@@ -2,16 +2,17 @@ package _01_ArraysAndStrings;
 import java.util.*;
 public class _52_FurthestBuildingYouCanReach {
     public  static int furthestBuilding(int[] heights, int bricks, int ladders) {
-        PriorityQueue<Integer> pq=new PriorityQueue<>();
+        PriorityQueue<Integer> pq=new PriorityQueue<>();// basically bricks k liye use hua h
         for(int i=0;i<heights.length;i++){
             int diff=heights[i+1]-heights[i];
-            if(diff>0){
+            if(diff>0){//
                 pq.add(diff);
             }
-            if(pq.size()>ladders){
+            if(pq.size()>ladders){//agr size ladders se jada hai to bricks k use krege and brick ko update krte jayage
+
                 bricks -= pq.poll();
             }
-            if(bricks<0){
+            if(bricks<0){//mtlb bricks and ladders khtm hogye to index return krdege
                 return i;
             }
         }
