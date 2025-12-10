@@ -12,7 +12,7 @@ public class _10_LongestSubStringWithoutRepeatingCharacters {
               boolean f1=false;
               boolean f2=false;
               while(i<str.length()-1){
-
+                  f1=true;
                   i++;
                   char ch=str.charAt(i);
                   map.put(ch,map.getOrDefault(ch,0)+1);
