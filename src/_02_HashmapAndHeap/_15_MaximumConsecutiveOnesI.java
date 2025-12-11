@@ -2,7 +2,6 @@ package _02_HashmapAndHeap;
 import java.util.*;
 public class _15_MaximumConsecutiveOnesI {
     public static int solution(int[] arr,int k){
-        // write your code here
         int ans=0;
         int j=-1;
         int count=0;
