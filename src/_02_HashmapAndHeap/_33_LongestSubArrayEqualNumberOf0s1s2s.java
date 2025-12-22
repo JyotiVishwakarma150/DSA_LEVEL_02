@@ -3,6 +3,7 @@ import java.util.*;
 
 public class _33_LongestSubArrayEqualNumberOf0s1s2s {
     public static int solution(int[] arr) {
+
         int ans=0;
         // map: "state (delta21#delta10)" → first index
         HashMap<String,Integer> map=new HashMap<>();
